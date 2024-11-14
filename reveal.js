@@ -2,11 +2,11 @@ window.onload = async function(){
     // ScrollReveal().reveal('.card');
     var typed = new Typed('#title', {
         strings: ['Eu sei, eu sei... <br/> Parece besteira né?', 'Queria fazer algo legal pra você <br/> algo pra <span style="color: #a5a5f9;">te animar 🎉</span> <br/> e dar boas vindas', 'Espero que esse período possa ser um tempo de renovo pra você ♡', 'Mata a saudade das meninas <br/><br/> <img src="./sister.jpeg" style="width:300px; height:500px;"/>', 'Ah, e fala pra belinha que ja lançou <span style="color: #a5a5f9;">Arcane</span> <br/> a séria da netflix...', 
-            'Provavelmente não nos veremos, então essa é minha <span style="color: #a5a5f9;">boas-vindas:</span>',
+            'Provavelmente não nos veremos, então essa é minhas <span style="color: #a5a5f9;">boas-vindas:</span>',
             '<span style="color: #a5a5f9; font-size: 4.5rem;">ESTOU FELIZ QUE ESTEJA AQUI</span>',
             '<span style="color: #a5a5f9; font-size: 4.5rem;">FICO FELIZ EM VER QUANTO CRESCEU</span>',
             '<span style="color: #a5a5f9; font-size: 4.5rem;">VOCÊ É MUITO ESFORÇADA</span>',
-            '<span style="color: #a5a5f9; font-size: 4.5rem;">E IMPORTANTE PRA NÓS</span>',
+            '<span style="color: #a5a5f9; font-size: 4.5rem;">E IMPORTANTE PRA MIM</span>',
             '<span style="color: #a5a5f9; font-size: 4.5rem;">VOCÊ TEM UM CORAÇÃO ENORME</span>',
             '<span style="color: #a5a5f9; font-size: 4.5rem;">MESMO SEM TE VER, SABER QUE ESTÁ PERTO JÁ É CONFORTANTE</span>',
             '<span style="color: #a5a5f9; font-size: 4.5rem;">ESTOU TORCENDO POR VOCÊ DAQUI</span>',
@@ -17,9 +17,9 @@ window.onload = async function(){
             '<span style="color: #ff658f; font-size: 4.5rem;">FIM</span>',
             // 'Provavelmente não nos veremos, então la vai minha tentativa de <span style="color: #a5a5f9;">boas-vindas</span>','Mas como sempre pensei em brincar um pouco','As frases estão em <span style="color: #a5a5f9;">Hexadecimal</span>, então você precisará traduzir'
         ],
-        typeSpeed: 10,
-        backSpeed: 20,
-        backDelay: 1000,
+        typeSpeed: 50,
+        backSpeed: 10,
+        backDelay: 3000,
         smartBackspace: true,
         onBegin: function(self) { 
             self.el.style.position="absolute"
