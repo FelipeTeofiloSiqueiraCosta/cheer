@@ -98,6 +98,27 @@
     word-wrap: break-word;
   }
 
+  .from-me{
+    font-size: 1rem;
+    font-weight: 100;
+    padding: 2px 5px;
+    border-radius: 3px;
+    background-color: var(--gray-100);
+    width: fit-content;
+    margin-bottom: 4px;
+  }
+
+  .from-god{
+    font-size: 1rem;
+    font-weight: 100;
+    padding: 2px 5px;
+    border-radius: 3px;
+    background-color: var(--gray-100);
+    width: fit-content;
+    margin-bottom: 4px;
+  }
+
+
 
 
   @media (max-width: 1080px) {
