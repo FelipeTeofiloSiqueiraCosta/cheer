@@ -105,7 +105,7 @@ window.onload = async function(){
           typeSpeed: 0,
       });
       var typed = new Typed('#text-6', {
-          strings: ['45,75,20,76,65,6a,6f,20,76,6f,63,65'],
+          strings: ['45,75,20,76,65,6a,6f,20,76,6f,63,65,2c,20,6f,62,72,69,67,61,64,6f,20,70,6f,72,20,6c,69,67,61,72,20,68,6f,6a,65'],
           typeSpeed: 0,
       });
       
